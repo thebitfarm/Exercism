@@ -1,0 +1,4 @@
+#[http]
+#timeout = 60000     # Timeout for each HTTP request, in milliseconds
+#cainfo = "c:\\jschafer\\workspacevscode\\Exercism\\rust\\eset.pem" # Path to Certificate Authority (CA) bundle (optional)
+#check-revoke = false # Indicates whether SSL certs are checked for revocation
