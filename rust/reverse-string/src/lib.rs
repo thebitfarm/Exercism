@@ -1,3 +1,10 @@
 pub fn reverse(input: &str) -> String {
-    unimplemented!("Write a function to reverse {}", input);
+    let mut ret : String = String::new();
+
+    for c in input.chars() {
+        println!("char is {}", c);
+        ret.insert(0, c);
+    }
+
+    return ret;
 }
